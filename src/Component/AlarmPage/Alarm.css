@@ -1,0 +1,116 @@
+
+.alarmPage {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin: auto;
+  margin-top: 60px ;
+  padding: 20px;
+  background-color: #f4f4f9;
+  border-radius: 10px;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.display {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.alarm-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.alarm-input {
+  padding: 10px;
+  font-size: 1em;
+  margin-bottom: 15px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  width: 100px;
+  text-align: center;
+}
+
+.days-selector {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.day-button {
+  padding: 8px 12px;
+  margin: 5px;
+  font-size: 0.9em;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  transition: all 0.3s;
+  cursor: pointer;
+  color: black;
+}
+
+.day-button:hover {
+  background-color: #007BFF;
+  color: white;
+  border-color: #007BFF;
+}
+
+.day-button.selected {
+  background-color: #28a745;
+  color: rgb(25, 23, 23);
+  border-color: #28a745;
+}
+
+.start {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.start:hover {
+  background-color: #0056b3;
+}
+
+
+.alarm-list {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.alarm-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.alarm-item:last-child {
+  border-bottom: none;
+}
+
+.delete-btn {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
